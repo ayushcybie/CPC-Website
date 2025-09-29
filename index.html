@@ -2,642 +2,275 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Climate Par Charcha</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Climate Par Charcha</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+   <link href="css/style.css" rel="stylesheet">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
    <link href="/style.css" rel="stylesheet">
-   
-   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-   <link
-   href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-   rel="stylesheet"/>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM65RAXXX9wN4l3AtZ4wD7A4ERgr3Z6EN3feCZK" crossorigin="anonymous">
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-  
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-</head>
-<body>
-    <div class="popup" id="popup">
-        <div class="popup-content">
-          <h2 class="popup-heading"><i class="fas fa-bullhorn"></i> Exciting News!</h2>
-          <p class="popup-text">
-            Our e-learning platform is launching soon! Explore climate education at your own pace with our 40% <strong>Charcha</strong> (discussion) and 60% <strong>Action</strong> approach, blending conversations with hands-on activities for a transformative experience.
-          </p>
-          <h3 class="popup-subheading"><i class="fas fa-user-edit"></i> Customize Your Climate Journey</h3>
-          <p class="popup-text">
-            At Climate Par Charcha, align your climate interest with your profession—be it a doctor, architect, or tech professional. Join a diverse community passionate about climate change and explore green startups, NGOs, and job opportunities.
-          </p>
-          <div class="popup-stats">
-            <div class="stat-item">
-              <span class="stat-number"><i class="fas fa-users"></i> 100,000+</span>
-              <span class="stat-text">Students Engaged</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number"><i class="fas fa-school"></i> 1,000+</span>
-              <span class="stat-text">Schools Reached</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number"><i class="fas fa-calendar-alt"></i> 100+</span>
-              <span class="stat-text">Events Annually</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number"><i class="fas fa-handshake"></i> 45+</span>
-              <span class="stat-text">Partners</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number"><i class="fas fa-user-tie"></i> 50+</span>
-              <span class="stat-text">Mentors</span>
-            </div>
-          </div>
-          <button class="close-popup" onclick="closePopup()"><i class="fas fa-times"></i> Close</button>
-        </div>
-    </div>
 
-      
-    <header>
-        <div class="logo" style="background-color: white; margin-left: 50px;">CLIMATE PAR CHARCHA</div>
-        <nav>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOvWmtVBEAFad4p7HESiqXTaSkc34VvfdAWLxezROhDokbmw/viewform" class="get-in-touch"> <i class="fas fa-paper-plane" style="margin-right: 5px;"></i>Apply Now</a>
-        </nav>
-    </header>
-<div class="main-section">
-    <h1 class="animated-heading" style=" font-weight: 600; font-size: 40px;">
-        EMBARK ON YOUR JOURNEY TO BE A <br>
-        <!-- <span class="highlight">"CLIMATE MITRA"</span>-->
-        <span class="highlight" id="climate-mitra"></span><span class="cursor" id="cursor"></span>
-         
-          WITH THE BEST  
-        <br>MENTORS AROUND YOU
-    </h1>
-    
-    <section class="campaign-section">
-            <div class="campaign-container">
-  
-                <div class="campaign-box img-box ">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link
+@@ -75,23 +76,23 @@ <h1 class="animated-heading" style=" font-weight: 600; font-size: 40px;">
+<div class="campaign-container">
+
+<div class="campaign-box img-box ">
+                    <img id="bala1" src="images/climateper.jpg" width="400px"
                     <img id="bala1" src="/climateper.jpg" width="400px"
-                    height="500px" alt="Planting">
-                  
-                </div>
-                <div class="campaign-box img-box ">
+height="500px" alt="Planting">
+
+</div>
+<div class="campaign-box img-box ">
+                    <img id="bala1" src="images/climatebatch.jpg" width="400px"
                     <img id="bala1" src="/climatebatch.jpg" width="400px"
-                    height="500px" alt="Planting">
-                  
-                </div>
-               
+height="500px" alt="Planting">
 
-                <div class="campaign-box img-box">
+</div>
+
+
+<div class="campaign-box img-box">
+                    <img src="images/climate.png" width="400px" height="450px"   alt="Clean-up Activity">
                     <img src="/climate.png" width="400px" height="450px"   alt="Clean-up Activity">
-                </div>
-    
-                <div class="campaign-box img-box">
+</div>
+
+<div class="campaign-box img-box">
+                    <img src="images/3.jpeg" width="400px" height="450px" alt="No Planet B">
                     <img src="/3.jpeg" width="400px" height="450px" alt="No Planet B">
-                    <div class="overlay-text large">There is no <br> PLANET B</div>
-                </div>
-              
-            </div>
-        </section>
-    </div>
-    <marquee class="marquee">
-        <span class="text">CLIMATE PAR CHARCHA</span> 
-        <span>40% <span style="color:white"> DISCUSSION</span> <span class="red-text">60%<span style="color:white">&nbsp;ACTIONS</span></span></span> |
-        <span class="text">CLIMATE PAR CHARCHA</span> 
-        <span>40%  <span style="color:white"> DISCUSSION</span> <span class="red-text">60%<span style="color:white">&nbsp;ACTIONS</span></span></span> |
-      
-        <span class="text">CLIMATE PAR CHARCHA</span> 
-        <span>40%  <span style="color:white">DISCUSSION</span> <span class="red-text">60%<span style="color:white">&nbsp;ACTIONS</span></span></span> |
-      
-    </marquee>
-<!--Pag2-->
-<div class="page-container">
-    <!-- Left Section -->
-    <div class="left-section">
-        <h2><i class="fas fa-bullseye"></i> Our Mission</h2>
-        <p>
-            Our mission is to bridge the gap between awareness and action by empowering individuals with the knowledge, skills, and opportunities to take concrete steps towards environmental sustainability. From schools to professionals across diverse sectors, we aim to inspire everyone to make a difference.
-        </p>
-        <h2><i class="fas fa-eye"></i> Vision</h2>
-        <p>
-            Our vision is to build a climate-conscious society where individuals from all walks of life are empowered to lead sustainable lifestyles, actively engage in climate action, and contribute to the global effort of mitigating the impacts of climate change.
-        </p>
-        <h2><i class="fas fa-question-circle"></i> Why Climate Par Charcha?</h2>
-        <p>
-            In a world where climate change continues to challenge our future, we believe the key to sustainable solutions lies in education and action. Climate Par Charcha is designed to tackle the environmental crisis by bringing together diverse voices, from students to professionals, and fostering collaborative solutions that are both innovative and practical. Our program goes beyond creating awareness; it turns ideas into action, and learners into leaders.
-        </p>
-    </div>
-    <!-- Right Section -->
-    <div class="right-section">
-        <h2>All you need to know about <span style="color: #00b4cc;">CLIMATE PAR CHARCHA</span></h2>
-        <ul class="stats-list">
-            <li><i class="fas fa-leaf"></i> Green Startups</li>
-            <hr>
-            <li><i class="fas fa-recycle"></i> Green Movements</li>
-            <hr>
-            <li><i class="fas fa-bullhorn"></i> Green Campaigns</li>
-            <hr>
-            <li><i class="fas fa-hands-helping"></i> Green NGOs</li>
-            <hr>
-            <li><i class="fas fa-user-tie"></i> 50+ Mentors Guiding the Way</li>
-            <hr>
-            <li><i class="fas fa-briefcase"></i> Green Entrepreneurs</li>
-            <hr>
-            <li><i class="fas fa-globe"></i> Green Jobs</li>
-            <hr>
-            <li><i class="fas fa-users"></i> Climate Professionals</li>
-            <hr>
-            <li><i class="fas fa-user-friends"></i> Climate Enthusiasts from diverse fields</li>
-            <hr>
-        </ul>
-    </div>
-</div>
-  <div class="buttons" style="margin-left: 10px;">
-    
-    <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/8EumZ_RVMqw?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
+<div class="overlay-text large">There is no <br> PLANET B</div>
 </div>
 
-<div id="main">
-    <div class="section-header">
-        <p>We organize various events, campaigns, and create awareness programs to preserve the <span style="background-color: #00b4cc;" class="highlight">Environment</span></p>
-    </div>
+@@ -169,19 +170,19 @@ <h2>All you need to know about <span style="color: #00b4cc;">CLIMATE PAR CHARCHA
 
-    <div id="bottom">
-        <div id="bottom-top">
-            <p style="font-size: 30px;"><b><i class="fas fa-camera"></i> Our Photo Gallery</b></p>
-        </div>
-
-        <div id="bottom-center">
-            <div id="img-1">
+<div id="bottom-center">
+<div id="img-1">
+                <img src="images/unnao.jpg" alt="Unnao">
                 <img src="/unnao.jpg" alt="Unnao">
-                <p style="text-align: center; font-size: 25px; font-weight: 600; background-color: #00b4cc; color: white; border-radius: 20px; font-size: 1rem; width: 150px; margin-left: 50px; padding: 0.3125rem 0.625rem;">
-                    <i class="fas fa-map-marker-alt"></i> UNNAO
-                </p>
-            </div>
-            <div id="img-2" style="border-radius: 50px; margin-left: 10px;">
+<p style="text-align: center; font-size: 25px; font-weight: 600; background-color: #00b4cc; color: white; border-radius: 20px; font-size: 1rem; width: 150px; margin-left: 50px; padding: 0.3125rem 0.625rem;">
+<i class="fas fa-map-marker-alt"></i> UNNAO
+</p>
+</div>
+<div id="img-2" style="border-radius: 50px; margin-left: 10px;">
+                <img src="images/ted.jpg" alt="TEDX BHIS Kanpur">
                 <img src="/ted.jpg" alt="TEDX BHIS Kanpur">
-                <p style="text-align: center; font-size: 25px; font-weight: 600; background-color: #00b4cc; color: white; border-radius: 20px; font-size: 1rem; width: 150px; margin-left: 50px; padding: 0.3125rem 0.625rem;">
-                    <i class="fas fa-lightbulb"></i> TEDX BHIS KANPUR
-                </p>
-            </div>
-            <div id="img-3">
+<p style="text-align: center; font-size: 25px; font-weight: 600; background-color: #00b4cc; color: white; border-radius: 20px; font-size: 1rem; width: 150px; margin-left: 50px; padding: 0.3125rem 0.625rem;">
+<i class="fas fa-lightbulb"></i> TEDX BHIS KANPUR
+</p>
+</div>
+<div id="img-3">
+                <img src="images/varanasi.jpg" alt="Varanasi">
                 <img src="/varanasi.jpg" alt="Varanasi">
-                <p style="text-align: center; font-size: 25px; font-weight: 600; background-color: #00b4cc; color: white; border-radius: 10px; font-size: 1.045rem; width: 150px; margin-left: 100px; padding: 0.3125rem 0.625rem;">
-                    <i class="fas fa-map-marked-alt"></i> VARANASI
-                </p>
-            </div>
-        </div>
+<p style="text-align: center; font-size: 25px; font-weight: 600; background-color: #00b4cc; color: white; border-radius: 10px; font-size: 1.045rem; width: 150px; margin-left: 100px; padding: 0.3125rem 0.625rem;">
+<i class="fas fa-map-marked-alt"></i> VARANASI
+</p>
+@@ -190,18 +191,18 @@ <h2>All you need to know about <span style="color: #00b4cc;">CLIMATE PAR CHARCHA
 
-        <div id="bottom-bottom">
-            <div id="b-b-left">
+<div id="bottom-bottom">
+<div id="b-b-left">
+                <img src="images/award.jpg" alt="UP Culture Department">
                 <img src="/award.jpg" alt="UP Culture Department">
-                <p style="text-align: center; font-size: 25px; font-weight: 600; background-color: #00b4cc; color: white; border-radius: 10px; font-size: 1.045rem; width: 150px; margin-left: 100px; padding: 0.3125rem 0.625rem;">
-                    <i class="fas fa-trophy"></i> UP CULTURE DEPARTMENT
-                </p>
-            </div>
-            <div id="b-b-right">
-                <div id="b-b-r-top">
+<p style="text-align: center; font-size: 25px; font-weight: 600; background-color: #00b4cc; color: white; border-radius: 10px; font-size: 1.045rem; width: 150px; margin-left: 100px; padding: 0.3125rem 0.625rem;">
+<i class="fas fa-trophy"></i> UP CULTURE DEPARTMENT
+</p>
+</div>
+<div id="b-b-right">
+<div id="b-b-r-top">
+                    <img src="images/rumi.png" alt="Rumi Event">
                     <img src="/rumi.png" alt="Rumi Event">
-                </div>
-                <div id="b-b-r-bottom">
-                    <div id="b-b-r-b-left">
+</div>
+<div id="b-b-r-bottom">
+<div id="b-b-r-b-left">
+                        <img src="images/cap9.jpg" alt="Gorakhpur">
                         <img src="/cap9.jpg" alt="Gorakhpur">
-                        <p style="text-align: center; font-size: 25px; font-weight: 600; background-color: #00b4cc; color: white; border-radius: 10px; font-size: 1.045rem; width: 150px; margin-left: 100px; padding: 0.3125rem 0.625rem;">
-                            <i class="fas fa-leaf"></i> GORAKHPUR
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
- 
+<p style="text-align: center; font-size: 25px; font-weight: 600; background-color: #00b4cc; color: white; border-radius: 10px; font-size: 1.045rem; width: 150px; margin-left: 100px; padding: 0.3125rem 0.625rem;">
+<i class="fas fa-leaf"></i> GORAKHPUR
+</p>
+@@ -222,98 +223,98 @@ <h1 style="text-align: center; font-weight: 600; margin-top: 100px; margin-botto
 
-<div class="container">
-    <h1 style="text-align: center; font-weight: 600; margin-top: 100px; margin-bottom: 50px; "> <i class="fas fa-handshake" style="margin-right: 10px; color: #00b4cc;"></i>Partners & Supporters</h1><br>
 
- <div class="partners-carousel">
-    <div class="carousel-wrapper">
-       
-     
-       
-        <div class="partner-image">
+<div class="partner-image">
+            <img src="images/Venkatesh Arora .JPG" alt="Partner 2">
             <img src="/Venkatesh Arora .JPG" alt="Partner 2">
-            <div class="partner-name">Venkatesh Arora</div>
-        </div>
-        <div class="partner-image">
+<div class="partner-name">Venkatesh Arora</div>
+</div>
+<div class="partner-image">
+            <img src="images/YASHIKA SACHDEVA.png" alt="Partner 2">
             <img src="/YASHIKA SACHDEVA.png" alt="Partner 2">
-            <div class="partner-name">Yashika Sachdeva</div>
-        </div>
-        <div class="partner-image">
+<div class="partner-name">Yashika Sachdeva</div>
+</div>
+<div class="partner-image">
+            <img src="images/Shristi Bajpai .jpg" alt="Partner 2">
             <img src="/Shristi Bajpai .jpg" alt="Partner 2">
-            <div class="partner-name">Shristi Bajpai</div>
-        </div>
-        <div class="partner-image">
+<div class="partner-name">Shristi Bajpai</div>
+</div>
+<div class="partner-image">
+            <img src="images/sarah1.png" alt="Partner 2">
             <img src="/sarah1.png" alt="Partner 2">
-            <div class="partner-name">Sarah</div>
-        </div>
-        <div class="partner-image">
+<div class="partner-name">Sarah</div>
+</div>
+<div class="partner-image">
+            <img src="images/Paresh Pandey .jpg" alt="Partner 2">
             <img src="/Paresh Pandey .jpg" alt="Partner 2">
-            <div class="partner-name">Paresh Pandey</div>
+<div class="partner-name">Paresh Pandey</div>
 
 
-        </div>
-        <div class="partner-image">
+</div>
+<div class="partner-image">
+            <img src="images/Ayush kumar chaudhary_.jpg" alt="Partner 2">
             <img src="/Ayush kumar chaudhary_.jpg" alt="Partner 2">
-            <div class="partner-name">Ayush Kumar</div>
-       
-        </div>
-        <div class="partner-image">
+<div class="partner-name">Ayush Kumar</div>
+
+</div>
+<div class="partner-image">
+            <img src="images/Nevish Bhagat.png" alt="Partner 2">
             <img src="/Nevish Bhagat.png" alt="Partner 2">
-            <div class="partner-name">Nevish Bhagatt</div>
-        </div>
-        <div class="partner-image">
+<div class="partner-name">Nevish Bhagatt</div>
+</div>
+<div class="partner-image">
+            <img src="images/Mentor - Jyotsana Kaur Habibullah .jpeg" alt="Partner 2">
             <img src="/Mentor - Jyotsana Kaur Habibullah .jpeg" alt="Partner 2">
-            <div class="partner-name">Jyotsna Kaur Habibullah</div>
-        </div>
-        <div class="partner-image">
+<div class="partner-name">Jyotsna Kaur Habibullah</div>
+</div>
+<div class="partner-image">
+            <img src="images/Shivang Verma .jpg" alt="Partner 2">
             <img src="/Shivang Verma .jpg" alt="Partner 2">
-            <div class="partner-name">Shivang Verma</div>
-        </div>
-        <div class="partner-image">
+<div class="partner-name">Shivang Verma</div>
+</div>
+<div class="partner-image">
+            <img src="images/IMG_2212.PNG" alt="Partner 2">
             <img src="/IMG_2212.PNG" alt="Partner 2">
-            <div class="partner-name">RJ Prateek</div>
-        </div>
-        <div class="partner-image">
-            
+<div class="partner-name">RJ Prateek</div>
+</div>
+<div class="partner-image">
+
+            <img src="images/aditi.jpeg" alt="Partner 2">
             <img src="/aditi.jpeg" alt="Partner 2">
-            <div class="partner-name">Adity Chakravarti</div>
-        </div>
-       
-        <div class="partner-image">
+<div class="partner-name">Adity Chakravarti</div>
+</div>
+
+<div class="partner-image">
+            <img src="images/Dr Neetu Misra.PNG" alt="Partner 2">
             <img src="/Dr Neetu Misra.PNG" alt="Partner 2">
-            <div class="partner-name">Dr. Neetu Misra</div>
-       
-        </div>
-        
-       <div class="partner-image">
-         <img src="WhatsApp Image 2025-09-29 at 11.29.25_1e133c6f.jpg" alt="Partner 2">
-         <div class="partner-name">Vashisth Shrivastava - Advisor</div>
+<div class="partner-name">Dr. Neetu Misra</div>
 
-     </div>
-       
-       
-        <div class="partner-image">
+</div>
+
+
+<div class="partner-image">
+            <img src="images/Mentor - Pakhi Das_.jpg" alt="Partner 2">
             <img src="/Mentor - Pakhi Das_.jpg" alt="Partner 2">
-            <div class="partner-name">Pakhi Das</div>
-       
-        </div>
-        <div class="partner-image">
-            <img src="/Mohammad Saquib - Mentor .jpg" alt="Partner 2">
-            <div class="partner-name">Dr. Mohammad Saquib</div>
-        </div>
-       
-       
-      
-        <div class="partner-image">
-            <img src="/Praveen Kumar - Mentor .JPG" alt="Partner 2">
-            <div class="partner-name">
-                Dr. Praveen Kumar
-                </div>
-        </div>
-        <div class="partner-image">
-            <img src="/RADHIKA MISHRA.jpg" alt="Partner 2">
-            <div class="partner-name">Radhika Mishra</div>
-        </div>
-       
-        <div class="partner-image">
-            <img src="/Sayed Raheel - Mentor .PNG" alt="Partner 2">
-            <div class="partner-name">Sayed Raheel</div>
-        </div>
-      
-       
-      
-       
-        <div class="partner-image">
-            <img src="/wh.jpg" alt="Partner 2">
-            <div class="partner-name">Iqra Sayed</div> 
-        </div>
-        <div class="partner-image">
-            <img src="/wh1.png" alt="Partner 2">
-            <div class="partner-name">Dr Rubana Zaheen</div> 
-        </div>
-    </div>
-    <span class="carousel-arrow left">‹</span>
-    <span class="carousel-arrow right">›</span>
-</div>
+<div class="partner-name">Pakhi Das</div>
 
 </div>
-<div class="container">
-    <section class="collaborators-section">
-        <div class="container">
-            <div class="content-wrapper">
-                <div class="heading-column">
-                    <div class="heading">
-                    <h1 style="font-weight: 600; font-size: 60px; line-height: 80.64px; margin-left: 40px;">
-                          Our
-                        </h1>
-                        <br>
-                        <span class="highlight" style="font-weight: 600; font-size: 40px; line-height: 80.64px;">
-                            Collaborators
-                        </span>
-                    </div>
-                </div>
-                <div class="description-column">
-                    <p class="description">
-                        We are proud to collaborate with a variety of organizations, NGOs, and green startups
-                        that share our vision of a sustainable future. Their resources and commitment help us
-                        to implement Climate Par Charcha across different regions and scale our impact.
-                    </p>
-                </div>
-            </div>
-            <div class="collaborators-logos">
+<div class="partner-image">
+            <img src="images/Mohammad Saquib - Mentor .jpg" alt="Partner 2">
+            <img src="/Mohammad Saquib - Mentor .jpg" alt="Partner 2">
+<div class="partner-name">Dr. Mohammad Saquib</div>
+</div>
+
+
+
+<div class="partner-image">
+            <img src="images/Praveen Kumar - Mentor .JPG" alt="Partner 2">
+            <img src="/Praveen Kumar - Mentor .JPG" alt="Partner 2">
+<div class="partner-name">
+Dr. Praveen Kumar
+</div>
+</div>
+<div class="partner-image">
+            <img src="images/RADHIKA MISHRA.jpg" alt="Partner 2">
+            <img src="/RADHIKA MISHRA.jpg" alt="Partner 2">
+<div class="partner-name">Radhika Mishra</div>
+</div>
+
+<div class="partner-image">
+            <img src="images/Sayed Raheel - Mentor .PNG" alt="Partner 2">
+            <img src="/Sayed Raheel - Mentor .PNG" alt="Partner 2">
+<div class="partner-name">Sayed Raheel</div>
+</div>
+
+
+
+
+<div class="partner-image">
+            <img src="images/wh.jpg" alt="Partner 2">
+            <img src="/wh.jpg" alt="Partner 2">
+<div class="partner-name">Iqra Sayed</div> 
+</div>
+<div class="partner-image">
+            <img src="images/wh1.png" alt="Partner 2">
+            <img src="/wh1.png" alt="Partner 2">
+<div class="partner-name">Dr Rubana Zaheen</div> 
+</div>
+</div>
+@@ -346,7 +347,7 @@ <h1 style="font-weight: 600; font-size: 60px; line-height: 80.64px; margin-left:
+</div>
+</div>
+<div class="collaborators-logos">
+                <img src="images/WhatsAp.jpg" width="100%" height="250px" alt="Collaborators Logo">
                 <img src="/WhatsAp.jpg" width="100%" height="250px" alt="Collaborators Logo">
-            </div>
-        </div>
-    </section>
-    <div class="contact-section">
-        <div class="get-involved">
-            <h2 class="title"><i class="fas fa-hands-helping"></i> Get Involved</h2>
-            <div class="contact-info">
-                <p class="info-item">
-                    <i class="fas fa-envelope"></i> climateparcharcha@gmail.com
-                </p>
-                <p class="info-item">
-                    <i class="fas fa-phone"></i> +91 9453127366
-                </p>
-            </div>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/company/climate-par-charcha/" target="_blank">
+</div>
+</div>
+</section>
+@@ -363,19 +364,19 @@ <h2 class="title"><i class="fas fa-hands-helping"></i> Get Involved</h2>
+</div>
+<div class="social-icons">
+<a href="https://www.linkedin.com/company/climate-par-charcha/" target="_blank">
+                    <img src="images/linkedin.png" href="" width="64px" height="64px" alt="LinkedIn">
                     <img src="/linkedin.png" href="" width="64px" height="64px" alt="LinkedIn">
-                    </a>
-                    
+</a>
+
+                    <!-- <img src="images/facebook.png"  width="64px" height="64px" alt="Facebook"> -->
                     <!-- <img src="/facebook.png"  width="64px" height="64px" alt="Facebook"> -->
-                    <a href="https://www.instagram.com/climateparcharcha?igsh=emc0M3lmY2h6ZXRx" target="_blank">
+<a href="https://www.instagram.com/climateparcharcha?igsh=emc0M3lmY2h6ZXRx" target="_blank">
+                        <img src="images/insta.png" width="64px" height="64px" alt="Instagram">
                         <img src="/insta.png" width="64px" height="64px" alt="Instagram">
-                    </a>
-                    <a href="https://x.com/climate_cosmos?mx=2" target="_blank">
+</a>
+<a href="https://x.com/climate_cosmos?mx=2" target="_blank">
+                    <img src="images/twiteer.png" width="64px" height="64px" alt="Twitter">
                     <img src="/twiteer.png" width="64px" height="64px" alt="Twitter">
-                    </a>
-                    <a href="https://www.youtube.com/@climateparcharcha">
+</a>
+<a href="https://www.youtube.com/@climateparcharcha">
+                    <img src="images/youtube.png" width="64px" height="64px" alt="YouTube"></a>
+                    <!-- <img src="images/telegram.png" width="64px" height="64px" alt="Telegram"> -->
                     <img src="/youtube.png" width="64px" height="64px" alt="YouTube"></a>
                     <!-- <img src="/telegram.png" width="64px" height="64px" alt="Telegram"> -->
-            </div>
-        </div>
-        <div class="contact-form">
-            <h2 class="form-title"><i class="fas fa-question-circle"></i> Any Queries? Connect Now</h2>
-            <form name="submit-to-google-sheet">
-                <div class="form-group">
-                    <input type="text" name="name" placeholder="Enter Your Name" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" name="email" placeholder="Enter Your Email ID" required>
-                </div>
-                <div class="form-group">
-                    <input type="tel" name="phone" placeholder="Enter Your Phone Number" required>
-                </div>
-                <div class="form-group">
-                    <input type="text" name="message" placeholder="Enter Your Message" required>
-                </div>
-                <button type="submit" class="submit-btn"><i class="fas fa-paper-plane"></i> GET IN TOUCH</button>
-            </form>
-        </div>
-    </div>
-        
-    </div>  
-    <!-- Footer Section -->
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-logo">
+</div>
+</div>
+<div class="contact-form">
+@@ -403,12 +404,12 @@ <h2 class="form-title"><i class="fas fa-question-circle"></i> Any Queries? Conne
+<footer class="footer">
+<div class="footer-content">
+<div class="footer-logo">
+                <img src="images/download.png"  alt="Ministry of Education Logo">
+                <img src="images/minister.png" alt="SDG Logo">
+                <img src="images/jal.png"   alt="SDG Logo">
                 <img src="/download.png"  alt="Ministry of Education Logo">
                 <img src="/minister.png" alt="SDG Logo">
                 <img src="/jal.png"   alt="SDG Logo">
-                
+
+                <img src="images/d1.png" height="500px"  alt="SDG Logo">
+                <img src="images/sustainable.png" width="100px" height="100px" alt="SDG Logo">
                 <img src="/d1.png" height="500px"  alt="SDG Logo">
                 <img src="/sustainable.png" width="100px" height="100px" alt="SDG Logo">
-               
-            </div>
-            <div class="caption">
-                
-                Guided by the Principles of Advancing the Objectives of the Ministry of Education , MOEFCC ,  Ministry of Jal Shakti , Mission Life and  UN Sustainable Development Goals
 
-            </div>
-            <div class="copyright">
-                &copy; 2024 Climate Par Charcha
-            </div>
-        </div>
-    </footer>
-    <script>
-        // Function to show the popup when the page loads
-        window.onload = function() {
-          document.getElementById('popup').style.display = 'flex';
-        }
-  
-        // Function to close the popup
-        function closePopup() {
-          document.getElementById('popup').style.display = 'none';
-        }
-      </script>
-  
-<script>
-    const carouselWrapper = document.querySelector('.carousel-wrapper');
-const images = document.querySelectorAll('.partner-image');
-const leftArrow = document.querySelector('.carousel-arrow.left');
-const rightArrow = document.querySelector('.carousel-arrow.right');
-
-let currentIndex = 0;
-const totalImages = images.length;
-const visibleImages = 4; // Show 4 images at a time
-const imageWidth = images[0].offsetWidth + 22; // Image width + gap between them
-let direction = 1; // 1 for forward, -1 for backward
-let autoSlide; // Variable to hold the setInterval
-
-function updateCarousel() {
-    const offset = currentIndex * imageWidth;
-    carouselWrapper.style.transform = `translateX(-${offset}px)`;
-}
-
-function slideToNext() {
-    if (currentIndex < totalImages - visibleImages) {
-        currentIndex++;
-    } else {
-        currentIndex = 0; // Loop back to the first image
-    }
-    updateCarousel();
-}
-
-function slideToPrevious() {
-    if (currentIndex > 0) {
-        currentIndex--;
-    } else {
+</div>
+<div class="caption">
+@@ -464,7 +465,7 @@ <h2 class="form-title"><i class="fas fa-question-circle"></i> Any Queries? Conne
+if (currentIndex > 0) {
+currentIndex--;
+} else {
+        currentIndex = totalImages - visibleImages; // Loop back to the last set of images
         currentIndex = totalImages - visibleImages; // Loop back to the last set of 
-    }
-    updateCarousel();
 }
-
-function startAutoSlide() {
-    stopAutoSlide(); // Clear any existing interval
-    autoSlide = setInterval(slideToNext, 3000);
+updateCarousel();
 }
-
-function stopAutoSlide() {
-    clearInterval(autoSlide);
-}
-
-// Event listeners for arrows
-rightArrow.addEventListener('click', () => {
-    direction = 1; // Set direction to right
-    stopAutoSlide(); // Stop the auto slide
-    slideToNext(); // Manually move to the next image
-});
-
-leftArrow.addEventListener('click', () => {
-    direction = -1; // Set direction to left
-    stopAutoSlide(); // Stop the auto slide
-    slideToPrevious(); // Manually move to the previous image
-});
-
+@@ -494,7 +495,7 @@ <h2 class="form-title"><i class="fas fa-question-circle"></i> Any Queries? Conne
 // Start auto slide on load
 startAutoSlide();
 
+// Ensure the correct width of the carousel wrapper based on total images and gap
 // Ensure the correct width of the carousel wrapper based on total  and gap
 window.addEventListener('resize', () => {
-    // Update imageWidth on window resize
-    const imageWidth = images[0].offsetWidth + 20; // recalculate width
-    updateCarousel(); // Recalculate position on resize
-});
-
-</script>
-
-
- 
-
-<script>
-    const ctx = document.getElementById('polarChart').getContext('2d');
-    
-    const polarChart = new Chart(ctx, {
-        type: 'polarArea',
-        data: {
-            labels: ['Schools Reached', 'Mentorship', 'Students Engaged', 'Our Partners', 'Event Organized'],
-            datasets: [{
-                label: 'Impact Stats',
-                data: [91, 75, 60, 45, 80], // Example values
-                backgroundColor: [
-                    '#0cc2e1',  // Schools Reached
-                    '#037f94',  // Mentorship
-                    '#add9e1',  // Students Engaged
-                    '#5696a1',  // Our Partners
-                    '#68bac8'   // Event Organized
-                ],
-                borderColor: '#fff',  // White borders between segments
-                borderWidth: 2
-            }]
-        },
-        options: {
-            responsive: true,
-            scales: {
-                r: {
-                    ticks: {
-                        display: false  // Hide scale labels
-                    },
-                    grid: {
-                        display: false  // Disable background circles
-                    }
-                }
-            },
-            plugins: {
-                legend: {
-                    display: false  // Hide the legend
-                },
-                tooltip: {
-                    callbacks: {
-                        label: function(context) {
-                            let label = context.label || '';
-                            let value = context.raw || '';
-                            return label + ': ' + value;
-                        }
-                    }
-                },
-                // Custom plugin to place text inside chart segments
-                afterDraw: function(chart) {
-                    const ctx = chart.ctx;
-                    const datasets = chart.data.datasets[0];
-                    chart.data.labels.forEach((label, i) => {
-                        const meta = chart.getDatasetMeta(0);
-                        const arc = meta.data[i];
-                        const centerPoint = arc.tooltipPosition();
-                        const value = datasets.data[i];
-                        
-                        ctx.save();
-                        ctx.font = 'bold 14px Arial';
-                        ctx.fillStyle = '#fff';  // Label color (white)
-                        ctx.textAlign = 'center';
-                        ctx.textBaseline = 'middle';
-                        ctx.fillText(label, centerPoint.x, centerPoint.y);
-                        ctx.restore();
-                    });
-                }
-            }
-        }
-    });
-</script>
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbwfb2WsbbT1OwPYI7i4b7lYZVmWJMP_ZXt_c8opqg3IbsP4x1U0x83XNP7bMe1qZ8JU/exec'
-const form = document.forms['submit-to-google-sheet']
-const msg = document.getElementById('msg')
-
-form.addEventListener('submit', e => {
-  e.preventDefault()
-  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-    .then(response => {
-      if (response.ok) {
-        alert('Data submitted successfully!')
-        form.reset() // Clear the form fields
-      } else {
-        throw new Error('Network response was not ok.')
-      }
-    })
-    .catch(error => {
-      console.error('Error!', error.message)
-      alert('An error occurred. Please try again.')
-    })
-})
-</script>
-<script>
-    const text = "CLIMATE MITRA";
-    const targetElement = document.getElementById("climate-mitra");
-    const cursorElement = document.getElementById("cursor");
-    let index = 0;
-    let isTyping = true;
-
-    function typeText() {
-        if (isTyping) {
-            if (index < text.length) {
-                targetElement.textContent += text.charAt(index);
-                index++;
-                setTimeout(typeText, 150); // Typing speed
-            } else {
-                isTyping = false; // Switch to erasing
-                setTimeout(typeText, 1000); // Pause before erasing
-            }
-        } else {
-            if (index > 0) {
-                targetElement.textContent = targetElement.textContent.slice(0, -1);
-                index--;
-                setTimeout(typeText, 100); // Erasing speed
-            } else {
-                isTyping = true; // Switch to typing again
-                setTimeout(typeText, 1000); // Pause before typing again
-            }
-        }
-    }
-
-    // Start the typing effect
-    typeText();
-</script>
-</body>
-</html>
-
-
-
+// Update imageWidth on window resize
+const imageWidth = images[0].offsetWidth + 20; // recalculate width
