@@ -1290,8 +1290,8 @@ body {
         width: 100%; /* Make stats full width on smaller screens */
       }
       .popup-content {
-          overflow-y: auto;
-      }
+          overflow-y: auto;
+      }
      
   
 }
@@ -1318,8 +1318,8 @@ body {
         width: 100%; /* Make stats full width on smaller screens */
       }
       .popup-content {
-          overflow-y: auto;
-      }
+          overflow-y: auto;
+      }
   
 }
 @media (max-width: 600px) {
