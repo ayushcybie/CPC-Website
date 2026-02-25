@@ -131,12 +131,16 @@ body, html {
 
 .carousel-wrapper {
     display: none;
-    /* transition: transform 0.5s ease-in-out; */
     gap: 20px;
     overflow-x: auto;
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+    scrollbar-width: nonr;
     width: max-content;
+    -ms-overflow-style: none;
     box-shadow:none !important;
+}
+.carousel-wrapper::-webkit-scrollbar {
+    display: none;             /* Chrome, Edge, Safari */
 }
 
 .partner-image {
@@ -1369,6 +1373,7 @@ body {
 .carousel-wrapper {
     transform: none !important;
 }
+
 
 
 
