@@ -124,13 +124,13 @@ body, html {
     position: relative;
     margin-bottom: 40px;
     padding-bottom: 100px;
-    overflow: hidden;
+    overflow: auto;
     width: 100%;
     margin: 0 auto;
 }
 
 .carousel-wrapper {
-    display: flex;
+    display: none;
     /* transition: transform 0.5s ease-in-out; */
     gap: 20px;
     overflow-x: auto;
@@ -1369,6 +1369,7 @@ body {
 .carousel-wrapper {
     transform: none !important;
 }
+
 
 
 
