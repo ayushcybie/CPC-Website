@@ -1363,4 +1363,8 @@ body {
         background-color: white; /* Visible cursor */
     }
 }
+.carousel-arrow {
+    display: none !important;
+}
+
 
